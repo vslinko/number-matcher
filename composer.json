@@ -1,0 +1,29 @@
+{
+    "name": "rithis/number-matcher",
+    "description": "Number mather with simple patterns",
+    "keywords": ["number", "regex", "matcher", "pattern"],
+    "homepage": "https://github.com/rithis/number-matcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/number-matcher/issues",
+        "wiki": "https://github.com/rithis/number-matcher/wiki",
+        "source": "https://github.com/rithis/number-matcher"
+    },
+    "require-dev": {
+        "behat/behat": "@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rithis\\NumberMatcher": ""
+        }
+    },
+    "target-dir": "Rithis/NumberMatcher"
+}
