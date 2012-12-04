@@ -33,7 +33,7 @@ class FeatureContext extends BehatContext
     /**
      * @Then /^Regex should match "([^"]*)"$/
      */
-    public function regexShouldMath($number)
+    public function regexShouldMatch($number)
     {
         if (!$this->numberMatcher->match($number)) {
             throw new Exception(sprintf('Not matched "%s"', $number));
@@ -43,7 +43,7 @@ class FeatureContext extends BehatContext
     /**
      * @Then /^Regex should not match "([^"]*)"$/
      */
-    public function regexShouldNotMath($number)
+    public function regexShouldNotMatch($number)
     {
         if ($this->numberMatcher->match($number)) {
             throw new Exception(sprintf('Matched "%s"', $number));
